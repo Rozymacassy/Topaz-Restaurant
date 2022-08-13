@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    width: 100%;
+    height: 50vh;
+    
+}
+.logo{
+    color:crimson;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bolder;
+    border-bottom: 8px double darkorchid ;
+    margin-bottom: 2px;
+    background-color:rgb(10, 9, 9) ;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+
+.navbar-container{
+display: flex;
+background-color: rgba(128, 128, 128, 0.473);
+position: fixed;
+width: 100%;
+
+}
+
+.menu-items{
+    display: flex;
+    list-style: none;
+    margin: 15px ;
+    margin-left: 12em;
+    font-size: 18px;
+}
+
+.navbar li a{
+    margin: 0px 20px 10px 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.navbar li a:hover{
+    background-color: transparent;
+    color: crimson;
+    padding: 5px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border: 2px solid darkorchid;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.headerbg{
+height: 50vh;
+background: linear-gradient(
+    rgba(240, 240, 240, 0),
+    rgba(202, 14, 14, 0.397)
+  ),
+  url("https://i.postimg.cc/wT3TQS3V/header-image2.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+}
+.text-on-img{
+position: absolute;
+text-align: center;
+left: 30em;
+margin-top: 90px;
+
+}
+.main-title{
+    padding: 10px;
+    color: crimson;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    border-radius: 8px;
+    font-size:22px;
+}
+.text-on-img p{
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 14px;
+
+}
+.text-on-img .btn-primary{
+    border: 2px solid maroon;
+    background-color: maroon; 
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border-radius: 15px;  
+}
+.text-on-img .btn-primary:hover{
+    background: transparent;
+    color: black;
+}
+
+.about{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+}
+
+.small{
+font-family: 'Courier New', Courier, monospace;
+color: crimson;
+background: black;
+padding: 10px;
+margin: auto;
+border-radius: 8px;
+margin-bottom: 10px;
+
+}
+.menu {
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+color: crimson;
+background: black;
+padding: 10px;
+border-radius: 8px;
+margin-bottom: 10px;
+}
+
+.local-food{
+  text-align: center;
+  font-size: 25px;
+  color: grey;
+  border-bottom: 2px dotted crimson;
+  
+}
+.food-menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 0px 30px 0px;
+}
+
+.food-menu-container img {
+  display: block;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.food-menu-item {
+  display: flex;
+  flex: 1 1 600px;
+  justify-content: space-evenly;
+  margin-bottom: 3rem;
+}
+
+.food-name {
+  margin: auto 1.5rem;
+}
+
+.food-name p {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #555;
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+
+.food-name .price {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: crimson;
+  font-weight: 900;
+  font-size: 20px;
+
+}
+
+
+#contact {
+    padding: 5rem 0;
+    background: rgb(226, 226, 226);
+  }
+  
+  .contact-container {
+    display: flex;
+    background: #fff;
+  }
+  
+  .contact-img {
+    width: 50%;
+  }
+  
+  .contact-img img {
+    display: block;
+    height: 400px;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 20%;
+  }
+  
+  .form-container {
+    padding: 1rem;
+    width: 50%;
+    margin: auto;
+  }
+  
+  .form-container input {
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    padding: 1rem 0;
+    box-shadow: none;
+    outline: none;
+    margin-bottom: 1rem;
+    color: #444;
+    font-weight: 500;
+  }
+  
+  .form-container textarea {
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    color: #444;
+    outline: none;
+    padding: 1rem 0;
+    resize: none;
+  }
+
+   .contact-us {
+    font-size: 2.7rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: crimson;
+    background: black;
+     border-radius: 10px;
+     text-align: center;
+    margin-bottom: 1rem;
+    margin-top: -1.2rem;
+  }
+  
+  .form-container a {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color:white;
+  }
+.btn{
+   border: 2px solid maroon;
+    background-color: maroon; 
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 20px;
+    border-radius: 15px;  
+  
+}
+  
+  #footer h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 2.6rem;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    color: crimson;
+    background: black;
+  }
